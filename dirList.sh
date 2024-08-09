@@ -31,7 +31,7 @@ fi
 find_opts=$(echo "$dirs_list" | sed 's/,/ -o -name /g' | sed 's/^/-name /')
 
 # Mostrar banner
-echo -e "${BLUE_BOLD}|                                           |${RESET}"
+echo -e "${BLUE_BOLD}                                             ${RESET}"
 echo -e "${BLUE_BOLD}+===========================================+${RESET}"
 echo -e "${BLUE_BOLD}|            _ _      _     _     _         |${RESET}"
 echo -e "${BLUE_BOLD}|         __| (_)_ __| |   (_)___| |_       |${RESET}"
